@@ -2,6 +2,8 @@
 
 This is front-end for face-swape in Photo and Video using React, Tailwind CSS.
 
+## Output
+
 ## Run ##
 
 1. Clone
