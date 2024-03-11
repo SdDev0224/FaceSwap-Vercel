@@ -2,10 +2,25 @@
 
 This is front-end for face-swape in Photo and Video using React, Tailwind CSS.
 
-clone [https://github.com/SdDev1223/FaceSwap-Vercel]
+## Run ##
 
-## `cd FaceSwap-Vercel`
-## `npm start`
+1. Clone
+
+```bash 
+git clone https://github.com/SdDev1223/FaceSwap-Vercel
+``` 
+
+2. Install requirements
+
+```bash
+npm install
+```
+
+3. Run
+
+```bash
+npm start
+```
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
