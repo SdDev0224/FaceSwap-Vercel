@@ -65,7 +65,7 @@ const App = () => {
 
       if (res.status === !200) return
 
-      let videoUrl = "data:video/mp4;base64," + res.data.video_path
+      let videoUrl = `data:video/mp4;base64,` + res.data.video_path
 
       setReplacedVideoSrc(videoUrl)
       setLoading(false)
