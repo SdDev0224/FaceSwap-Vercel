@@ -29,6 +29,7 @@ const App = () => {
     const file = e.target.files[0]
 
     // if (file) setVideoSrc(URL.createObjectURL(e.target.files[0]));
+    
     if (file) {
       setVideoSrc('')
       const reader = await new FileReader()
