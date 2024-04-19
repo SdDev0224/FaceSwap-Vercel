@@ -28,17 +28,17 @@ const App = () => {
   const handleFileInputChangeVideo = async (e) => {
     const file = e.target.files[0]
 
-    // if (file) setVideoSrc(URL.createObjectURL(e.target.files[0]));
-    if (file) {
-      setVideoSrc('')
-      const reader = await new FileReader()
-      reader.onloadend = () => {
-        let src = reader.result
-        if (src.split(':')[1].split('/')[0] !== 'video') return
-        setVideoSrc(src)
-      }
-      reader.readAsDataURL(file)
-    }
+    if (file) setVideoSrc(URL.createObjectURL(e.target.files[0]));
+    // if (file) {
+    //   setVideoSrc('')
+    //   const reader = await new FileReader()
+    //   reader.onloadend = () => {
+    //     let src = reader.result
+    //     if (src.split(':')[1].split('/')[0] !== 'video') return
+    //     setVideoSrc(src)
+    //   }
+    //   reader.readAsDataURL(file)
+    // }
   }
 
   //Fuction to send API to backend to replace face in video
