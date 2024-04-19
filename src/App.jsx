@@ -57,11 +57,6 @@ const App = () => {
       formData.append('image', image.files[0])
       formData.append('video', video.files[0])
 
-      // let res = await axios.post('http://localhost:8000/api/replace-face/', formData, {
-      //   headers: {
-      //     'Content-Type': 'multipart/form-data'
-      //   }
-      // })
       let res = await axios.post('https://narwhal-smooth-doe.ngrok-free.app/api/replace-face/', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
